@@ -1,0 +1,38 @@
+{
+	"name": "festive-neon-theme",
+	"version": "1.0.0",
+	"displayName": "Festive Neon",
+	"description": "A festive theme with neon red accents, soft colors that are easy on the eyes, and pink strings",
+	"publisher": "custom-themes",
+	"license": "MIT",
+	"engines": {
+		"vscode": "^1.13.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"keywords": [
+		"festive",
+		"neon",
+		"red",
+		"pink",
+		"dark",
+		"theme",
+		"color-theme",
+		"soft"
+	],
+	"galleryBanner": {
+		"color": "#0f0f15",
+		"theme": "dark"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"label": "Festive Neon",
+				"uiTheme": "vs-dark",
+				"path": "./theme/festive-neon.json"
+			}
+		]
+	}
+}
+
